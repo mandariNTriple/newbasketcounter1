@@ -62,6 +62,7 @@ body {
     background-color: #1B244A;
     display: flex;
     justify-content: space-around;
+    font-family: Cursed-Timer;
 }
 
 .btns-quarter {
@@ -69,6 +70,7 @@ body {
     background-color: #1B244A;
     display: flex;
     justify-content: space-around;
+    font-family: Cursed-Timer;
 }
 
 button {
