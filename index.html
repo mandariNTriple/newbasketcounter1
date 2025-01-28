@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="basketScore.css">
+    <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div id="score-home">
+                <p>0</p>
+            </div>
+            <div class="btns">
+                <button onclick="add1Home()">+1</button>
+                <button onclick="add2Home()">+2</button>
+                <button onclick="add3Home()">+3</button>
+            </div>
+        </div>
+        <div>
+            <h4>QUARTER</h4>
+            <div id="quarter">
+                <p>1</p>
+            </div>
+            <div class="btns-quarter">
+                <button onclick="addQuarter()">quarter</button>
+            </div>
+
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <div id="score-guest">
+                <p>0</p>
+            </div>
+            <div class="btns">
+                <button onclick="add1Guest()">+1</button>
+                <button onclick="add2Guest()">+2</button>
+                <button onclick="add3Guest()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button class="set-btn" onclick="setScore()">Set</button>
+    <script src="basketScore.js"></script>
+</body>
+
+</html>
